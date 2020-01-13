@@ -3,7 +3,7 @@ const activeEnv =
 
 const config = {
   wordPressUrl: `https://reverent-haibt7369.on.getshifter.io`,
-  wordPressGraphQlUrl: `https://reverent-haibt7369.on.getshifter.iographql/`,
+  wordPressGraphQlUrl: `https://reverent-haibt7369.on.getshifter.io/graphql/`,
 }
 
 module.exports = { config }
