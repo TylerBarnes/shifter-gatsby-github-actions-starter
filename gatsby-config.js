@@ -2,14 +2,8 @@ const activeEnv =
   process.env.GATSBY_ACTIVE_ENV || process.env.NODE_ENV || `development`
 
 const config = {
-  wordPressUrl:
-    activeEnv === "production"
-      ? `REPLACE_SHIFTER_URL/`
-      : `https://127.0.0.1:8443/`,
-  wordPressGraphQlUrl:
-    activeEnv === "production"
-      ? `REPLACE_SHIFTER_URL/graphql/`
-      : `https://127.0.0.1:8443/graphql/`,
+  wordPressUrl: `https://reverent-haibt7369.on.getshifter.io`,
+  wordPressGraphQlUrl: `https://reverent-haibt7369.on.getshifter.iographql/`,
 }
 
 module.exports = { config }
